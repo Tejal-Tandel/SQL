@@ -1,4 +1,4 @@
-# 176. Second Highest Salary
+/* 176. Second Highest Salary
 
 Table: Employee
 +-------------+------+
@@ -46,7 +46,7 @@ Output:
 +---------------------+
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT IFNULL(
     (SELECT DISTINCT salary
