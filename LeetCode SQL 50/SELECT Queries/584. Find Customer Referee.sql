@@ -1,4 +1,4 @@
-# 584. Find Customer Referee
+/* 584. Find Customer Referee
 
 Table: Customer
 +-------------+---------+
@@ -39,7 +39,7 @@ Output:
 +------+
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT name 
 FROM customer
