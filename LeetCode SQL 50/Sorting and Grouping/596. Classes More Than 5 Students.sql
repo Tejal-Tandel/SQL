@@ -1,4 +1,4 @@
-# 596. Classes More Than 5 Students
+/* 596. Classes More Than 5 Students
 
 Table: Courses
 +-------------+---------+
@@ -43,7 +43,7 @@ Explanation:
 - Computer has 1 student, so we do not include it.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT class
 FROM courses
