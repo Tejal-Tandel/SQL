@@ -1,4 +1,4 @@
-# 1327. List the Products Ordered in a Period
+/* 1327. List the Products Ordered in a Period
 
 Table: Products
 +------------------+---------+
@@ -71,7 +71,7 @@ Products with product_id = 4 was not ordered in February 2020.
 Products with product_id = 5 is ordered in February a total of (50 + 50) = 100.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT p.product_name,
         SUM(o.unit) AS unit
