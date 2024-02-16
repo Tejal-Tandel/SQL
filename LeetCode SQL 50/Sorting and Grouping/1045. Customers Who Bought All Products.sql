@@ -1,4 +1,4 @@
-# 1045. Customers Who Bought All Products
+/* 1045. Customers Who Bought All Products
 
 Table: Customer
 +-------------+---------+
@@ -55,7 +55,7 @@ Explanation:
 The customers who bought all the products (5 and 6) are customers with IDs 1 and 3.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT customer_id 
 FROM customer
