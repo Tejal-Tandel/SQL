@@ -1,4 +1,4 @@
-# 1280. Students and Examinations
+/* 1280. Students and Examinations
 
 Table: Students
 +---------------+---------+
@@ -94,7 +94,7 @@ Alex did not attend any exams.
 John attended the Math exam 1 time, the Physics exam 1 time, and the Programming exam 1 time.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT  s.student_id, 
         s.student_name, 
