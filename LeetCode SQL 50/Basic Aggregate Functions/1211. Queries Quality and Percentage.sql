@@ -1,4 +1,4 @@
-# 1211. Queries Quality and Percentage
+/* 1211. Queries Quality and Percentage
 
 Table: Queries
 +-------------+---------+
@@ -53,7 +53,7 @@ Cat queries quality equals ((2 / 5) + (3 / 3) + (4 / 7)) / 3 = 0.66
 Cat queries poor_ query_percentage is (1 / 3) * 100 = 33.33
 
 -------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT query_name,
     ROUND(AVG(rating/position),2) AS quality,
