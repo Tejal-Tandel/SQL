@@ -1,4 +1,4 @@
-# 197. Rising Temperature
+/* 197. Rising Temperature
 
 Table: Weather
 +---------------+---------+
@@ -39,7 +39,7 @@ In 2015-01-02, the temperature was higher than the previous day (10 -> 25).
 In 2015-01-04, the temperature was higher than the previous day (20 -> 30).
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT t.id AS id
 FROM weather y
