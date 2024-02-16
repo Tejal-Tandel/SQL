@@ -1,4 +1,4 @@
-# 1907. Count Salary Categories
+/* 1907. Count Salary Categories
 
 Table: Accounts
 +-------------+------+
@@ -44,7 +44,7 @@ Average Salary: No accounts.
 High Salary: Accounts 3, 6, and 8.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 WITH cte1 AS(
     SELECT account_id,
