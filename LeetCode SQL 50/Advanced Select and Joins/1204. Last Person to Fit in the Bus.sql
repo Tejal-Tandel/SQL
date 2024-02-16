@@ -1,4 +1,4 @@
-# 1204. Last Person to Fit in the Bus
+/* 1204. Last Person to Fit in the Bus
 
 Table: Queue
 +-------------+---------+
@@ -51,7 +51,7 @@ Explanation: The folowing table is ordered by the turn for simplicity.
 +------+----+-----------+--------+--------------+
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 WITH cte AS (
     SELECT person_name, 
