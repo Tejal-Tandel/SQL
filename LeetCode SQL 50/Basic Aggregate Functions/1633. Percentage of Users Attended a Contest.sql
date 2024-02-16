@@ -1,4 +1,4 @@
-# 1633. Percentage of Users Attended a Contest
+/* 1633. Percentage of Users Attended a Contest
 
 Table: Users
 +-------------+---------+
@@ -68,7 +68,7 @@ Alice and Alex registered in contest 215 and the percentage is ((2/3) * 100) = 6
 Bob registered in contest 207 and the percentage is ((1/3) * 100) = 33.33%
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT contest_id,
     ROUND(COUNT(user_id)/(SELECT COUNT(*) FROM users)*100,2) AS percentage
