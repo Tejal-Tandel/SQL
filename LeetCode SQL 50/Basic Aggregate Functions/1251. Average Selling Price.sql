@@ -1,4 +1,4 @@
-# 1251. Average Selling Price
+/* 1251. Average Selling Price
 
 Table: Prices
 +---------------+---------+
@@ -61,7 +61,7 @@ Average selling price for product 1 = ((100 * 5) + (15 * 20)) / 115 = 6.96
 Average selling price for product 2 = ((200 * 15) + (30 * 30)) / 230 = 16.96
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT  p.product_id, 
         IFNULL(ROUND(SUM(u.units*p.price)/SUM(u.units),2),0) AS average_price
