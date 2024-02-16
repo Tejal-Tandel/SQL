@@ -1,4 +1,4 @@
-# 626. Exchange Seats
+/* 626. Exchange Seats
 
 Table: Seat
 +-------------+---------+
@@ -41,7 +41,7 @@ Explanation:
 Note that if the number of students is odd, there is no need to change the last one's seat.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT CASE
     WHEN id = (SELECT MAX(id) FROM seat) AND MOD(id,2) = 1
