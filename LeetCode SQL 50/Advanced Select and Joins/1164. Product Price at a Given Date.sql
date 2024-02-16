@@ -1,4 +1,4 @@
-# 1164. Product Price at a Given Date
+/* 1164. Product Price at a Given Date
 
 Table: Products
 +---------------+---------+
@@ -38,7 +38,7 @@ Output:
 +------------+-------+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT product_id, new_price AS price
 FROM products
