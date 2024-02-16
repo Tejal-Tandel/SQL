@@ -1,4 +1,4 @@
-# 180. Consecutive Numbers
+/* 180. Consecutive Numbers
 
 Table: Logs
 +-------------+---------+
@@ -37,7 +37,7 @@ Output:
 Explanation: 1 is the only number that appears consecutively for at least three times.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 WITH cte AS (SELECT
        LEAD(num,1) OVER(ORDER BY id) AS next_num1,
