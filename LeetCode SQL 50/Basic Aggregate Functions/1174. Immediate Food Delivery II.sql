@@ -1,4 +1,4 @@
-# 1174. Immediate Food Delivery II
+/* 1174. Immediate Food Delivery II
 
 Table: Delivery
 +-----------------------------+---------+
@@ -44,7 +44,7 @@ The customer id 3 has a first order with delivery id 5 and it is scheduled.
 The customer id 4 has a first order with delivery id 7 and it is immediate.
 Hence, half the customers have immediate first orders.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 -- Total immediate orders / Total orders
 SELECT ROUND(SUM(IF(order_date = customer_pref_delivery_date,1,0)) * 100/ COUNT(*),2)
