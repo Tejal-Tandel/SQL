@@ -1,4 +1,4 @@
-# 1683. Invalid Tweets
+/* 1683. Invalid Tweets
 
 Table: Tweets
 +----------------+---------+
@@ -34,7 +34,7 @@ Tweet 1 has length = 14. It is a valid tweet.
 Tweet 2 has length = 32. It is an invalid tweet.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT tweet_id
 FROM tweets
