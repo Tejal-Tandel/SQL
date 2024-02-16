@@ -1,4 +1,4 @@
-# 585. Investments in 2016
+/* 585. Investments in 2016
 
 Table: Insurance
 +-------------+-------+
@@ -49,7 +49,7 @@ The second record does not meet any of the two criteria. Its tiv_2015 is not lik
 So, the result is the sum of tiv_2016 of the first and last record, which is 45.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT ROUND(SUM(tiv_2016),2) AS tiv_2016
 FROM insurance
