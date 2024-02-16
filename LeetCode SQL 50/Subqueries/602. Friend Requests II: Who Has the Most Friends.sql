@@ -1,4 +1,4 @@
-# 602. Friend Requests II: Who Has the Most Friends
+/* 602. Friend Requests II: Who Has the Most Friends
 
 Table: RequestAccepted
 +----------------+---------+
@@ -35,7 +35,7 @@ Output:
 Explanation: 
 The person with id 3 is a friend of people 1, 2, and 4, so he has three friends in total, which is the most number than any others.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 WITH cte AS (
     SELECT accepter_id AS id FROM RequestAccepted
