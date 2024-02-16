@@ -1,4 +1,4 @@
-# 1075. Project Employees I
+/* 1075. Project Employees I
 
 Table: Project
 +-------------+---------+
@@ -57,7 +57,7 @@ Output:
 Explanation: The average experience years for the first project is (3 + 2 + 1) / 3 = 2.00 and for the second project is (3 + 2) / 2 = 2.50
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT  p.project_id, 
         ROUND(AVG(e.experience_years),2)
@@ -66,12 +66,5 @@ FROM project p
 LEFT JOIN employee e
     USING(employee_id)
 GROUP BY p.project_id;
-
-
-
-
-
-
-
 
 
