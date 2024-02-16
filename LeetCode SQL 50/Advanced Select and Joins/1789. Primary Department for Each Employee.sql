@@ -1,4 +1,4 @@
-# 1789. Primary Department for Each Employee
+/* 1789. Primary Department for Each Employee
 
 Table: Employee
 +---------------+---------+
@@ -48,7 +48,7 @@ Explanation:
 - The Primary department for employee 4 is 3.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT employee_id, department_id
 FROM employee
