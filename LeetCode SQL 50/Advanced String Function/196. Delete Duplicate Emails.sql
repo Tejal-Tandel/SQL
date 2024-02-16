@@ -1,4 +1,5 @@
-# 196. Delete Duplicate Emails
+/* 196. Delete Duplicate Emails
+
 Table: Person
 +-------------+---------+
 | Column Name | Type    |
@@ -69,7 +70,7 @@ Output:
 +----+------------------+
 Explanation: john@example.com is repeated two times. We keep the row with the smallest Id = 1.
 -------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 DELETE p FROM person p 
 INNER JOIN person dup
