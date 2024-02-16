@@ -1,4 +1,4 @@
-# 1517. Find Users With Valid E-Mails
+/* 1517. Find Users With Valid E-Mails
 
 Table: Users
 
@@ -49,7 +49,7 @@ The mail of user 6 does not have the leetcode domain.
 The mail of user 7 starts with a period.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT user_id, name, mail
 FROM users
