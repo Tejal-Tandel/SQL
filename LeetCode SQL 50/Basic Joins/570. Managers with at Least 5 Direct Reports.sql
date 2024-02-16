@@ -1,4 +1,4 @@
-# 570. Managers with at Least 5 Direct Reports
+/* 570. Managers with at Least 5 Direct Reports
 
 Table: Employee
 +-------------+---------+
@@ -38,7 +38,7 @@ Output:
 | John |
 +------+
 --------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT e.name
 FROM employee e
