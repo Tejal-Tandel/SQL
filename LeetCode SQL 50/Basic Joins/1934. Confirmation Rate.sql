@@ -1,4 +1,4 @@
-# 1934. Confirmation Rate
+/* 1934. Confirmation Rate
 
 Table: Signups
 +----------------+----------+
@@ -67,7 +67,7 @@ User 7 made 3 requests and all were confirmed. The confirmation rate is 1.
 User 2 made 2 requests where one was confirmed and the other timed out. The confirmation rate is 1 / 2 = 0.5.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT s.user_id,
     ROUND(SUM(IF(c.action = 'confirmed',1,0))/COUNT(*),2) AS confirmation_rate
