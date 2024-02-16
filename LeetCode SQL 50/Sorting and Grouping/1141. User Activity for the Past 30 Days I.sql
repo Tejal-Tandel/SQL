@@ -1,4 +1,4 @@
-# 1141. User Activity for the Past 30 Days I
+/* 1141. User Activity for the Past 30 Days I
 
 Table: Activity
 
@@ -47,14 +47,14 @@ Output:
 Explanation: Note that we do not care about days with zero active users.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT activity_date AS day, COUNT(DISTINCT user_id) AS active_users
 FROM activity
 WHERE activity_date BETWEEN DATE_SUB('2019-07-27', INTERVAL 29 DAY) AND '2019-07-27'
 GROUP BY activity_date;
 
-/* alternatively
+-- alternatively --
 
 SELECT activity_date AS day, COUNT(DISTINCT user_id) AS active_users
 FROM activity
