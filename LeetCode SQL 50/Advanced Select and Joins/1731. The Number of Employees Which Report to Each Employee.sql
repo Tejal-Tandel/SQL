@@ -1,4 +1,4 @@
-# 1731. The Number of Employees Which Report to Each Employee
+/* 1731. The Number of Employees Which Report to Each Employee
 
 Table: Employees
 +-------------+----------+
@@ -37,7 +37,7 @@ Output:
 Explanation: Hercy has 2 people report directly to him, Alice and Bob. Their average age is (41+36)/2 = 38.5, which is 39 after rounding it to the nearest integer.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT m.employee_id,
     m.name,
