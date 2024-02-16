@@ -1,4 +1,4 @@
-# 619. Biggest Single Number
+/* 619. Biggest Single Number
 
 Table: MyNumbers
 +-------------+------+
@@ -60,7 +60,7 @@ Output:
 Explanation: There are no single numbers in the input table so we return null.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT MAX(num) AS num
 FROM 
