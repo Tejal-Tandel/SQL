@@ -1,4 +1,4 @@
-# 1378. Replace Employee ID With The Unique Identifier
+/* 1378. Replace Employee ID With The Unique Identifier
 
 Table: Employees
 
@@ -62,7 +62,7 @@ The unique ID of Winston is 3.
 The unique ID of Jonathan is 1.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT eu.unique_id, e.name
 FROM employees e 
