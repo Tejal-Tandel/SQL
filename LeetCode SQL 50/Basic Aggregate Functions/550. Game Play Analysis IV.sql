@@ -1,4 +1,4 @@
-# 550. Game Play Analysis IV
+/* 550. Game Play Analysis IV
 
 Table: Activity
 +--------------+---------+
@@ -38,7 +38,7 @@ Explanation:
 Only the player with id 1 logged back in after the first day he had logged in so the answer is 1/3 = 0.33
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT ROUND(SUM(login)/COUNT(DISTINCT player_id), 2) AS fraction
 FROM (
