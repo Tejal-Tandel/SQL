@@ -1,4 +1,4 @@
-# 2356. Number of Unique Subjects Taught by Each Teacher
+/* 2356. Number of Unique Subjects Taught by Each Teacher
 
 Table: Teacher
 +-------------+------+
@@ -47,7 +47,7 @@ Teacher 2:
   - They teach subject 4 in department 1.
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT teacher_id, COUNT(DISTINCT subject_id) AS cnt
 FROM teacher
