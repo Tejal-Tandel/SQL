@@ -1,4 +1,4 @@
-# 1484. Group Sold Products By The Date
+/* 1484. Group Sold Products By The Date
 
 Table Activities:
 +-------------+---------+
@@ -42,7 +42,7 @@ For 2020-05-30, Sold items were (Headphone, Basketball, T-shirt), we sort them l
 For 2020-06-01, Sold items were (Pencil, Bible), we sort them lexicographically and separate them by a comma.
 For 2020-06-02, the Sold item is (Mask), we just return it.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-# Solution
+# Solution */
 
 SELECT sell_date,
         COUNT(DISTINCT product) AS num_sold,
