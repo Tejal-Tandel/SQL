@@ -18,4 +18,4 @@ Danny has shared with you 3 key datasets for this case study:
 
 Entity Relationship Diagram
 
-<img width="626" alt="DannyDiner" src="https://github.com/Tejal-Tandel/SQL/assets/91433792/ee7592de-150e-4a53-b677-381588fb4789">
+![ERD](images/DannyDiner.png)
