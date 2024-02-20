@@ -18,4 +18,4 @@ Danny has shared with you 3 key datasets for this case study:
 
 Entity Relationship Diagram
 
-![ERD](images/DannyDiner.png)
+![ERD](image/DannyDiner.png)
