@@ -1,6 +1,7 @@
 **CASE STUDY 1: Danny's Diner**
 
 [Challenge Link](https://8weeksqlchallenge.com/case-study-1)
+
 [Tableau Dashboard](https://public.tableau.com/app/profile/tejal.tandel7721/viz/DannysDinerDashboard_17090163388380/DannysDinerDashboard)
 
 Problem Statement
